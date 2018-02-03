@@ -91,4 +91,4 @@ If neo4j is running(Step1) and username and passwords have been kept as mentione
 
 ## Meta
 
-Aman Madan – madan.aman@gmail.com or yaushdev@gmail.com
+Aman Madan – madan.aman@gmail.com/yaushdev@gmail.com

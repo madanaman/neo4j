@@ -1,12 +1,20 @@
 # NEO4J CRUD OPERATIONS USING NODE
- This demo helps to setup connection and perform CRUD (create, read, update and delete) operations between docker image of neo4j and node
+ This demo helps to setup connection and perform CRUD (create, read, update and delete) operations between docker image of neo4j and node.
+
 
 ## Installation
+
+###Step 1: Installing Neo4j Docker Image
+Before proceeding towards this step, please ensure that you have docker intalled on your machine. 
+To install docker refer to https://docs.docker.com/install/
 
 OS X & Linux:
 
 ```sh
-npm install my-crazy-module --save
+    docker run \
+    --publish=7474:7474 --publish=7687:7687 \
+     --volume=$HOME/neo4j/data:/data \
+     neo4j
 ```
 
 Windows:

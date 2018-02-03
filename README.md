@@ -29,8 +29,8 @@ This should bring up the neo4j console.
 
 ### Step 2: Create user and password for neo4j
 Within the browser opened in Step 1, follow the onscreen instructions and create a username and password for your use. In my case I kept
-username as ** neo4j **
-password as ** neo4j1 **
+username as **neo4j**
+password as **neo4j1**
 
 
 ## Usage example

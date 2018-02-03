@@ -17,7 +17,7 @@ var graph = require('neo4j-query')('http://'+uname+':'+pswd+'@'+server+':'+port)
 var operation = ''
 
 if(process.argv.length<3){
-        console.log("Incomplete arguments supplied... to run the process\n node server.js <test/insert/fetch>")
+        console.log("Incomplete arguments supplied... to run the process\n node server.js <test/insert/fetch/delete>")
         process.exit(20)
 }
 

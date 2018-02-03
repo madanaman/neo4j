@@ -83,7 +83,12 @@ If neo4j is running(Step1) and username and passwords have been kept as mentione
     node server.js fetch
 ```
 
+### Delete Data
+```sh
+    node server.js delete
+```
+
 
 ## Meta
 
-Aman Madan – [@amanmad1](https://twitter.com/amanmad1) – madan.aman@gmail.com
+Aman Madan – madan.aman@gmail.com or yaushdev@gmail.com

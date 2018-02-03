@@ -29,9 +29,24 @@ This should bring up the neo4j console.
 
 ### Step 2: Create user and password for neo4j
 Within the browser opened in Step 1, follow the onscreen instructions and create a username and password for your use. In my case I kept
+
 username as **neo4j**
+
 password as **neo4j1**
 
+### Step 3: Clone this project
+In a seperate terminal
+
+Make a directory and then run below command
+```sh
+    git clone https://github.com/madanaman/neo4j.git
+```
+
+### Step 4: Test connection
+In a seperate terminal, run below command
+```sh
+    node server.js test
+```
 
 ## Usage example
 

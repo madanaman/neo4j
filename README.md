@@ -17,6 +17,18 @@ OS X & Linux:
      --volume=$HOME/neo4j/data:/data \
      neo4j
 ```
+This command will download the neo4j image and map local ports 7474 adn 7687 to neo4j ports.
+
+To check if installation is correct, then open your browser and go to:
+```sh
+    http://localhost:7474/
+```
+This should bring up the neo4j console.
+
+
+
+### Step 2: Clone the project
+
 
 ## Usage example
 
